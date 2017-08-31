@@ -1,5 +1,5 @@
 // document.body.style.backgroundColor="red";
-var startStatisticIndex = 2;
+var startStatisticIndex = 2; 
 
 var allHeaderElements = document.getElementsByClassName('timeline-comment-header');
 var allCommentElements = document.getElementsByClassName('js-comment-body');
