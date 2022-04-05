@@ -3,10 +3,10 @@ console.log(`欢迎使用智能简历筛选工具。`);
 
 const SMART_CONFIG = {
     refreshTimes: 15,//单位分钟
-    account: 'd00566038',
-    email: 'daiyaya@huawei.com',//需要校验是否以huawei.com结尾
-    workPlace: ['南京', '成都'],
-    languages: ['java', 'js', 'c++']
+    account: 'd00566038',//应用号通知
+    email: 'daiyaya@huawei.com',//邮件通知，需要校验是否以huawei.com结尾
+    workPlace: ['南京', '成都'],//简历过滤：工作地点
+    languages: ['java', 'js', 'c++']//简历过滤：使用的语言
 }
 
 var lastData = ''
